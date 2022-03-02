@@ -1,3 +1,12 @@
+
+
+@media (max-width: 1500px) {
+	.portfolio-cards {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+
 @media (max-width: 1100px) {
 	.flex-container {
 		flex-direction: column;
@@ -24,7 +33,14 @@
 		}
 	}
 
-	
+	.skills {
+		.main-text__paragraph {
+			max-width: 70vw;
+			margin: 0 auto;
+		}
+
+		
+	}
 
 	header .header-container nav .menu .menu__item:not(:last-child){
 		display: none;
@@ -33,6 +49,10 @@
 		display: block;
 	}
 
+
+	.portfolio-cards {
+		grid-template-columns: repeat(2, 1fr);
+	}
 
 
 }
@@ -82,5 +102,22 @@
 	padding-right: 0;
 }
 
+.portfolio-cards {
+	grid-template-columns: repeat(1, 1fr);
+}
+
+}
+
+
+
+@media (max-width: 400px) {
+
+.skills	.skills-background {
+	border-radius: 0;
+}
+
+.portfolio .portfolio-background {
+	border-radius: 0;
+}
 
 }

@@ -1,0 +1,86 @@
+@media (max-width: 1100px) {
+	.flex-container {
+		flex-direction: column;
+
+	}
+	.inner-block {
+		padding-left: 0;
+		padding-right: 0;
+		max-width: 100vh;
+	}
+	
+	.about-me {
+		.about-me-content {
+			order: 2;
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.about-me-photo {
+			padding-left: 0;
+			padding-right: 0;
+			img {
+				margin: 0 auto;
+			}
+		}
+	}
+
+	
+
+	header .header-container nav .menu .menu__item:not(:last-child){
+		display: none;
+	}
+	header .header-container nav .menu .menu__item:last-child{
+		display: block;
+	}
+
+
+
+}
+
+@media (max-width: 700px) {
+	
+.skill-cards {
+	flex-direction: column;
+	.skill-column-card {
+		margin-left: auto;
+		margin-right: auto;	
+	}
+}
+
+.skill-column {
+
+	&:nth-child(1) {
+		transform: translateY(-22.5px);
+	}
+
+	&:nth-child(2) {
+		margin-left: 0;
+		transform: translateY(22.5px);
+	}
+}
+
+.contact-me-input1, .contact-me-input2 {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contact-me-input2 {
+	padding-top: 30px;
+}
+
+.contact-me-inputs {
+	flex-direction: column;
+}
+
+.contact-me-button {
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact-me-input2 textarea, .contact-me-input2, .contact-me-col1 {
+	width: auto;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+}

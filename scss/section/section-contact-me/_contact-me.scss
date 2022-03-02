@@ -1,0 +1,146 @@
+.contact-me {
+	.contact-me-container {
+		padding: 50px 0;
+	}
+	.contact-me-button {
+		margin-left: auto;
+		margin-top: 20px;
+	}
+}
+
+
+.contact-me-inputs {
+	display: flex;
+	margin-left: auto;
+	position: relative;
+	justify-content: center;
+  }
+  
+  .contact-me-inputs::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(1, 1, 1, 0.05) url("./images/contact-me/hug.gif") center /
+	  50px no-repeat;
+	visibility: hidden;
+  }
+  
+  .contact-me-inputs._sending::after {
+	visibility: visible;
+  }
+  
+  .contact-me-col1 {
+	
+	text-align: center;
+	padding-right: 15px;
+  }
+  
+  .contact-me-col2 {
+	
+	text-align: center;
+	padding-left: 15px;
+  }
+  
+  .contact-me-input1 {
+	width: 200px;
+  }
+  
+  .contact-me-input2 {
+	width: 400px;
+  }
+  
+  .contact-me-input1 input:nth-child(1) {
+	height: 50px;
+	width: 100%;
+	margin-bottom: 15px;
+	outline: none;
+  }
+  
+  .contact-me-input1 input:nth-child(2) {
+	height: 50px;
+	width: 100%;
+	margin-top: 15px;
+	outline: none;
+  }
+  
+  .contact-me-input2 input {
+	height: 130px;
+	width: 100%;
+  }
+  
+  .contact-me-input1 input {
+	padding: 15px;
+	border: 1px solid #e3e3e3;
+  
+	font-family: "Lato", sans-serif;
+	line-height: 1.4;
+	font-size: 14px;
+	color: #424141;
+	transition: all 0.1s ease;
+  }
+  
+  .contact-me-input2 input::placeholder {
+	transform: translateY(-40px);
+  }
+  
+  .contact-me-input1 input::placeholder {
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 14px;
+	color: #bdb9b9;
+  }
+  
+  .contact-me-input2 textarea {
+	height: 130px;
+	width: 100%;
+	padding: 15px;
+  
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 14px;
+	color: #bdb9b9;
+	border: 1px solid #e3e3e3;
+  
+	outline: none;
+	-moz-appearance: none;
+	overflow: auto;
+  }
+  
+  .contact-me-input2 textarea::placeholder {
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 14px;
+	color: #bdb9b9;
+	transition: all 0.1s ease;
+  }
+  
+  .contact-me-input2 textarea:hover,
+  .contact-me-input2 textarea:focus,
+  .contact-me-input1 input:hover,
+  .contact-me-input1 input:focus {
+	padding: 14px;
+	border: 2px solid #414142;
+  }
+
+
+  .contact-me-inputs::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(1, 1, 1, 0.05) url("../../../images/contact-me/hug.gif") center /50px no-repeat;
+	visibility: hidden;
+  }
+  
+  .contact-me-inputs._sending::after {
+	visibility: visible;
+  }
+  

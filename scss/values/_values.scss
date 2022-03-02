@@ -1,0 +1,76 @@
+//colors
+$greyColor: rgb(65, 65, 66);
+$whiteColor: white;
+$blackColor: black;
+
+//values
+$ContentBlockWidth: 45vw;
+
+
+//templates
+.container {
+	padding: 0 5vw;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-me-button {
+	width: 200px;
+	height: 50px;
+
+	font-weight: normal;
+	display: block;
+
+	border: 3px solid $whiteColor;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	color: $greyColor;
+	background: $whiteColor;
+	border: 3px solid $greyColor;
+	border-radius: 60px;
+	transition: all 0.2s ease-in;
+
+	&:hover {
+		background: $greyColor;
+		color: $whiteColor;
+		cursor: pointer;
+	}
+}
+
+.main-text {
+	text-align: center;
+	padding-bottom: 20px;
+
+	&__title {
+		padding-bottom: 20px;
+		font-family: "Open Sans", sans-serif;
+		font-size: 36px;
+		font-weight: 700;
+		color: $greyColor;;
+	}
+
+	&__paragraph {
+			font-size: 16px;
+			font-weight: normal;
+			font-family: "Open Sans", sans-serif;
+			color: $greyColor;
+	}
+
+}
+
+._error {
+	box-shadow: 0 0 15px red;
+  }
+  
+
+.inner-block {
+	padding: 40px 80px;
+	width: 100%;
+	max-width: $ContentBlockWidth;
+}
